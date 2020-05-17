@@ -2,7 +2,7 @@ library customtoggleswitch;
 
 import 'package:flutter/material.dart';
 
-class custom_toggle_switch extends StatefulWidget {
+class CustomToggleSwitch extends StatefulWidget {
   final bool value;
   final ValueChanged<bool> onChanged;
   final Color activeColor;
@@ -12,7 +12,7 @@ class custom_toggle_switch extends StatefulWidget {
   final Color activeTextColor ;
   final Color inactiveTextColor;
 
-  const custom_toggle_switch({
+  const CustomToggleSwitch({
     Key key,
     this.value,
     this.onChanged,
@@ -25,10 +25,10 @@ class custom_toggle_switch extends StatefulWidget {
       : super(key: key);
 
   @override
-  _custom_toggle_switchState createState() => _custom_toggle_switchState();
+  _CustomToggleSwitchState createState() => _CustomToggleSwitchState();
 }
 
-class _custom_toggle_switchState extends State<custom_toggle_switch>
+class _CustomToggleSwitchState extends State<CustomToggleSwitch>
     with SingleTickerProviderStateMixin {
   Animation _circleAnimation;
   AnimationController _animationController;

@@ -1,3 +1,4 @@
+
 import 'package:customtoggleswitch/customtoggleswitch.dart';
 import 'package:flutter/material.dart';
 
@@ -36,12 +37,12 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            custom_toggle_switch(
-              inactiveTextColor: Colors.blue,
-              activeTextColor: Colors.lightGreenAccent,
-              inactiveText: "off",
-              inactiveColor:Colors.orange,
+            CustomToggleSwitch(
               activeText: "On",
+              inactiveText: "Off",
+              inactiveColor: Colors.orange,
+              activeTextColor: Colors.lightGreenAccent,
+              inactiveTextColor: Colors.red,
               activeColor: Colors.pinkAccent,
               value: status,
               onChanged: (value) {
