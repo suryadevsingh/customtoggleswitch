@@ -1,6 +1,6 @@
 name: customtoggleswitch
 description:  A new Flutter package customtoggleswitch is used to toggle a setting between on/off which is true/false respectively Created by suryadevsingh.
-version: 1.0.1
+version: 1.0.3
 homepage: https://github.com/suryadevsingh/customtoggleswitch
 
 environment:
