@@ -11,5 +11,6 @@
 ## [1.0.5+5] - Updated README.md.
 ## [1.0.5+6] - Updated README.md.
 ## [1.0.5+7] - Updated README.md.
+## [1.1.0] - Updated README.md.
 
 * TODO: Describe initial release.
