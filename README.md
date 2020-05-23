@@ -2,21 +2,21 @@
 A new Flutter package customtoggleswitch is used to toggle a setting between on/off which is true/false respectively Created by suryadevsingh.
 
 ## Demo
-![Gif](Screenshot/demo.gif)
+ ![Gif](Screenshot/demo.gif)
 
-##1. Depend on it
+## 1. Depend on it
 
 ```bash
 dependencies:
   customtoggleswitch: any
 ```
 
-##2. Install it
+## 2. Install it
 ```bash
 $ flutter pub get
 ```
 
-##3. Import it
+## 3. Import it
 ```bash
 import 'package:customtoggleswitch/customtoggleswitch.dart';
 ```
