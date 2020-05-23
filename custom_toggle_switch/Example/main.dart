@@ -40,10 +40,10 @@ class _HomeScreenState extends State<HomeScreen> {
             CustomToggleSwitch(
               activeText: "On",
               inactiveText: "Off",
-              inactiveColor: Colors.orange,
-              activeTextColor: Colors.lightGreenAccent,
-              inactiveTextColor: Colors.red,
-              activeColor: Colors.pinkAccent,
+              inactiveColor: Colors.red[300],
+              activeTextColor: Colors.white,
+              inactiveTextColor: Colors.white,
+              activeColor: Colors.green[300],
               value: status,
               onChanged: (value) {
                 print("VALUE : $value");
