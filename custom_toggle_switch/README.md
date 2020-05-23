@@ -1,6 +1,12 @@
 # CustomToggleSwitch
 A new Flutter package customtoggleswitch is used to toggle a setting between on/off which is true/false respectively Created by suryadevsingh.
-![](demo.gif)
+
+### Demo
+ <p>
+     <img src="https://github.com/suryadevsingh/customtoggleswitch/blob/master/custom_toggle_switch/Screenshot/demo.gif?raw=true"/>
+ 
+ </p>
+
 ## 1. Depend on it
 
 ```bash
